@@ -1,5 +1,10 @@
 .container {
   border: 1px solid;
+  border-collapse: collapse;
+}
+
+table tr:nth-last-child(an+b)-child, nth-first-child  {
+    background: #ccc;
 }
 
 td {

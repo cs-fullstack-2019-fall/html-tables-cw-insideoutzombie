@@ -1,5 +1,10 @@
 .container {
   border: 1px solid;
+  border-collapse: collapse;
+}
+
+table tr:nth-child(4n-1), table tr:nth-child(4n)  {
+    background: #ccc;
 }
 
 td {
